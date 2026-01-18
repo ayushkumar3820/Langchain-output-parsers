@@ -1,18 +1,46 @@
-# Python-generated files
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python
+# =========================
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
+*.pyo
+*.pyd
+*.log
 
-# Virtual environments
-.venv
-.environments
-.env/
+# =========================
+# Virtual environment
+# =========================
+.venv/
 venv/
-ENV/
-env.bak/
-venv.bak/
+env/
 
-        
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Secrets / Keys
+# =========================
+*.key
+*.pem
+*.token
